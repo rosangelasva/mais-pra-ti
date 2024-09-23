@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans&display=swap');
+
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-image: url('./images/background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+main{
+    background-color: white;
+    margin: 2% 15% ;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow:  5px 5px 20px 5px rgba(0, 0, 0, 0.5);
+}
+header, footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+header #banner-principal{
+    height: 250px;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./images/banner-principal.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: 0.7s ease;
+}
+header #banner-principal:hover{
+   background-size: 110%;
+  
+}
+header #banner-principal h1{
+    color: rgba(247, 225, 211, 0.7);
+    font-size: 45px;
+    font-weight: bold;
+    
+}
+header nav{
+    background: #F7E1D3 ;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    padding: 0;
+    border-radius: 5px;
+}
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin: 0;
+    padding: 25px 30px;
+    cursor: pointer;
+}
+header nav ul li:hover{
+   background: #f7eee8 ;
+    background-color:#8D6364 ;
+    transition: 0.7s;
+}
+section{
+    font-family: "Playpen Sans", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    width: 70%;
+    padding-right: 15px;
+}
+aside{
+   padding: 0 15px;
+   background: #f7eee8 ;
+   width: 30%;
+   border-radius: 5px 0 0 5px;
+}
+aside ul{
+ line-height: 1.7rem;
+}
+
+aside ul li a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+aside ul li a:hover{
+    color: #8D6364;
+    transition: 0.5s;
+}
+aside ul li a:visited{
+    color: #8D6364;
+}
+#main{
+    display: flex;
+    padding-top: 20px;
+
+}
